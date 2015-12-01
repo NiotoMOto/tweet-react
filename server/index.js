@@ -9,9 +9,10 @@ router.get('', (req, res) => {
 
 app.use(router);
 app.use('/app', express.static('./app'));
+app.use('/dist', express.static('./dist'));
 function start(){
-  http.listen(4000, function(){
-    console.log('listening on *:4000');
+  http.listen(3000, function(){
+    console.log('listening on *:3000');
   });
 }
 

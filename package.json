@@ -4,6 +4,7 @@
   "description": "tweeter react",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,7 +27,18 @@
     "babel-preset-react": "^6.1.18",
     "babelify": "^7.2.0",
     "express": "^4.13.3",
+    "history": "^1.13.1",
     "react": "^0.14.2",
-    "react-dom": "^0.14.2"
+    "react-dom": "^0.14.2",
+    "react-router": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-express": "^0.3.5",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
